@@ -36,19 +36,48 @@ const menu = [
         descricao: "Pastel de carne",
     },
 
-
     {
         id: 5,
+        title: "Feijoada",
+        categoria: "tipicas",
+        preco: 15,
+        img: "img/feijoada.jpeg",
+        descricao: "Porção de Feijoada serve 3 pessoas",
+    },
+
+    
+    {
+        id: 6,
+        title: "Pizza de Calabresa",
+        categoria: "pizza",
+        preco: 40,
+        img: "img/pizza-calabresa.jpeg",
+        descricao: "tamanho: Média</br>queijo mussarela</br>azeitona</br>porção para 4 pessoas",
+    },
+
+
+    {
+        id: 7,
+        title: "Hambúguer Caseiro",
+        categoria: "hamburguer",
+        preco: 15,
+        img: "img/hamburguer-caseiro.jpg",
+        descricao: "Pão Artersanal</br>2carnes</br>2queijos</br>2bacon",
+    },
+
+
+    {
+        id: 8,
         title: "Pastel",
         categoria: "Salgados",
         preco: 4,
         img: "img/pastel-misto.jpg",
-        descricao: "Pastel misto",
+        descricao: "Pastel misto ",
     },
  
 
     {
-        id: 6,
+        id: 9,
         title: "Coxinha",
         categoria: "Salgados",
         preco: 4,
@@ -57,7 +86,7 @@ const menu = [
     },
 
     {
-        id: 7,
+        id: 11,
         title: "Refri",
         categoria: "Bebidas",
         preco: 6.50,
@@ -66,7 +95,7 @@ const menu = [
     },
 
     {
-        id: 8,
+        id: 12,
         title: "Refri",
         categoria: "Bebidas",
         preco: 10,
@@ -75,7 +104,7 @@ const menu = [
     },
 
     {
-        id: 9,
+        id: 13,
         title: "Bolo",
         categoria: "Sobremesas",
         preco: 3,
@@ -85,7 +114,7 @@ const menu = [
 
 
     {
-        id: 10,
+        id: 14,
         title: "Pastel",
         categoria: "Salgados",
         preco: 4,
@@ -95,13 +124,134 @@ const menu = [
 
 
     {
-        id: 11,
+        id: 15,
         title: "Sorvete",
         categoria: "Sobremesas",
         preco: 3,
         img: "img/sobremesa-choco.jpg",
         descricao: "Brownie na taça",
     },
+
+    {
+        id: 16,
+        title: "Cuscuz",
+        categoria: "tipicas",
+        preco: 10,
+        img: "img/cuscuzreceado.jpg",
+        descricao: "Cuscuz recheado com queijo",
+    },
+
+    {
+        id: 17,
+        title: "Maria Isabel",
+        categoria: "tipicas",
+        preco: 15,
+        img: "img/mariaIsabel.jpeg",
+        descricao: "Arroz com carne de sol</br>porção para 2 pessoas",
+    },
+
+    {
+        id: 18,
+        title: "Baião de dois",
+        categoria: "tipicas",
+        preco: 20,
+        img: "img/baiao.jpg",
+        descricao: "Arroz com feijão</br>2Queijos</br>porção para 2 pessoas",
+    },
+
+    {
+        id: 19,
+        title: "Bolinho de Macaxeira",
+        categoria: "tipicas",
+        preco: 5,
+        img: "img/bolinho-de-macaxeira.jpeg",
+        descricao: "bolinho de macaxeira com queijo</br>porção para 1 pessoas",
+    },
+
+    {
+        id: 20,
+        title: "Carne-de-Sol",
+        categoria: "tipicas",
+        preco: 25,
+        img: "img/carne-de-sol.jpg",
+        descricao: "carne de sol acebolada</br>macaxeira frita</br>porção para 2 pessoas",
+    },
+
+    {
+        id: 21,
+        title: "Vinagrete",
+        categoria: "tipicas",
+        preco: 3,
+        img: "img/vinagrete.jpeg",
+        descricao: "porção para 2 pessoas",
+    },
+
+
+    {
+        id: 22,
+        title: "Pizza de Carne Seca",
+        categoria: "pizza",
+        preco: 40,
+        img: "img/pizza-carne.jpg",
+        descricao: "tamanho: Médio</br>sem borda</br>queijo mussarela</br>porção para 4 pessoas",
+    },
+
+    {
+        id: 23,
+        title: "Pizza de Papperoni",
+        categoria: "pizza",
+        preco: 40,
+        img: "img/pizza-de-pepperoni.jpg",
+        descricao: "tamanho: Médio</br>com borda de catupiry</br>azeitonas</br>milho</br>pimentões</br>porção para 4 pessoas",
+    },
+
+    {
+        id: 24,
+        title: "Pizzas",
+        categoria: "pizza",
+        preco: 60,
+        img: "img/pizza-duas.jpeg",
+        descricao: "tamanho: pequeno</br>calabresa</br>carne seca</br>milho</br>porção para 6 pessoas",
+    },
+
+    {
+        id: 24,
+        title: "Pizza Portuguesa",
+        categoria: "pizza",
+        preco: 40,
+        img: "img/pizza-portuguesa.jpeg",
+        descricao: "tamanho: Médio</br>ovo</br>presunto</br>milho</br>porção para 4 pessoas",
+    },
+
+    {
+        id: 25,
+        title: "Hambúrgur Frango",
+        categoria: "hamburguer",
+        preco: 12,
+        img: "img/hamburguer-frango.jpg",
+        descricao: "pão brioche</br>ovo</br>presunto</br>alface</br>queijo</br>molho da casa",
+    },
+
+    {
+        id: 26,
+        title: "Hambúrgur",
+        categoria: "hamburguer",
+        preco: 22,
+        img: "img/hamburguer-combo.jpeg",
+        descricao: "1 hambúrguer</br>Fanta</br>batata frita</br>molho especial",
+    },
+
+    {
+        id: 27,
+        title: "Hambúrgur",
+        categoria: "hamburguer",
+        preco: 17,
+        img: "img/hamburguer-g.jpeg",
+        descricao: "Hambúrguer gourmet</br>400g</br>calabresa</br>molho da cassa</br>queijo mussarela</br>ovo",
+    },
+
+
+    
 
 ];
 
